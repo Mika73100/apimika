@@ -1,0 +1,26 @@
+
+Register : http://127.0.0.1:8000/api/register_check
+Login : http://127.0.0.1:8000/api/login_check
+Recup un article : https://127.0.0.1:8000/api/articles/1
+
+
+
+    1 : symfony new apimika
+    2 : composer require symfony/orm-pack
+    3 : composer require --dev symfony/maker-bundle
+    4 : php bin/console make:entity
+    5 : php bin/console d:d:c
+    6 : composer require api (coder les entitées pour la prise en charge du bundle)
+
+
+    _________________________________outils__________________________________________
+
+    1 : php bin/console cache:clear
+
+
+    _________________________________Admin__________________________________________
+
+
+    1 : composer require easycorp/easyadmin-bundle
+
+
